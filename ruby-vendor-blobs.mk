@@ -102,3 +102,7 @@ PRODUCT_COPY_FILES += \
   vendor/htc/ruby/proprietary/lib/libmpl_jni.so:system/lib/libmpl_jni.so \
   vendor/htc/ruby/proprietary/lib/libmpl.so:system/lib/libmpl.so \
   vendor/htc/ruby/proprietary/lib/libv8.so:system/lib/libv8.so
+
+# TEMP FIX FOR MY COMPUTER BUILDING LIBGENLOCK WRONG
+PRODUCT_COPY_FILES += \
+  vendor/htc/ruby/proprietary/lib/libgenlock.so:system/lib/libgenlock.so
