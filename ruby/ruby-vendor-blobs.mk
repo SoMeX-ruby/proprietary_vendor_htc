@@ -16,10 +16,9 @@
 
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES += \
-	vendor/htc/ruby/proprietary/lib/libacdbloader.so:obj/lib/libacdbloader.so \
-	vendor/htc/ruby/proprietary/lib/libacdbmapper.so:obj/lib/libacdbmapper.so \
-	vendor/htc/ruby/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so \
-	vendor/htc/ruby/proprietary/lib/libv8.so:obj/lib/libv8.so
+    vendor/htc/ruby/proprietary/lib/libacdbloader.so:obj/lib/libacdbloader.so \
+    vendor/htc/ruby/proprietary/lib/libacdbmapper.so:obj/lib/libacdbmapper.so \
+    vendor/htc/ruby/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so
 
 PRODUCT_COPY_FILES += \
   vendor/htc/ruby/proprietary/etc/agps_rm:system/etc/agps_rm \
@@ -71,20 +70,19 @@ PRODUCT_COPY_FILES += \
   vendor/htc/ruby/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
   vendor/htc/ruby/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
   vendor/htc/ruby/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
-  vendor/htc/ruby/proprietary/lib/egl/libGLESv2S3D_adreno200.so:system/lib/egl/libGLESv2S3D_adreno200.so \
   vendor/htc/ruby/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
   vendor/htc/ruby/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
   vendor/htc/ruby/proprietary/lib/libc2d2_z180.so:system/lib/libc2d2_z180.so \
   vendor/htc/ruby/proprietary/lib/libgsl.so:system/lib/libgsl.so \
   vendor/htc/ruby/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
   vendor/htc/ruby/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
-  vendor/htc/ruby/proprietary/lib/libdiag.so:system/lib/libdiag.so \
   vendor/htc/ruby/proprietary/lib/libdsm.so:system/lib/libdsm.so \
   vendor/htc/ruby/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
   vendor/htc/ruby/proprietary/lib/liboncrpc.so:system/lib/liboncrpc.so \
   vendor/htc/ruby/proprietary/lib/libpbmlib.so:system/lib/libpbmlib.so \
   vendor/htc/ruby/proprietary/lib/hw/nfc.ruby.so:system/lib/hw/nfc.ruby.so \
   vendor/htc/ruby/proprietary/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so \
+  vendor/htc/ruby/proprietary/lib/libdiag.so:system/lib/libdiag.so \
   vendor/htc/ruby/proprietary/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
   vendor/htc/ruby/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
   vendor/htc/ruby/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
@@ -100,5 +98,4 @@ PRODUCT_COPY_FILES += \
   vendor/htc/ruby/proprietary/lib/libmllite.so:system/lib/libmllite.so \
   vendor/htc/ruby/proprietary/lib/libmlplatform.so:system/lib/libmlplatform.so \
   vendor/htc/ruby/proprietary/lib/libmpl_jni.so:system/lib/libmpl_jni.so \
-  vendor/htc/ruby/proprietary/lib/libmpl.so:system/lib/libmpl.so \
-  vendor/htc/ruby/proprietary/lib/libv8.so:system/lib/libv8.so
+  vendor/htc/ruby/proprietary/lib/libmpl.so:system/lib/libmpl.so
