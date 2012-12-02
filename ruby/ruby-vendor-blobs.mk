@@ -25,6 +25,7 @@ PRODUCT_COPY_FILES += \
   vendor/htc/ruby/proprietary/etc/vpimg:system/etc/vpimg \
   vendor/htc/ruby/proprietary/bin/akmd:system/bin/akmd \
   vendor/htc/ruby/proprietary/bin/awb_camera:system/bin/awb_camera \
+  vendor/htc/ruby/proprietary/bin/calibrator:system/bin/calibrator \
   vendor/htc/ruby/proprietary/bin/charging:system/bin/charging \
   vendor/htc/ruby/proprietary/bin/ewtzmud:system/bin/ewtzmud \
   vendor/htc/ruby/proprietary/bin/htcbatt:system/bin/htcbatt \
