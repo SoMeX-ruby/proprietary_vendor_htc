@@ -117,6 +117,7 @@ PRODUCT_COPY_FILES += \
   vendor/htc/evitareul/proprietary/lib/libdiag.so:system/lib/libdiag.so \
   vendor/htc/evitareul/proprietary/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
   vendor/htc/evitareul/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
+  vendor/htc/evitareul/proprietary/lib/libhtc_rilhook.so:system/lib/libhtc_rilhook.so \
   vendor/htc/evitareul/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
   vendor/htc/evitareul/proprietary/lib/libqcci_legacy.so:system/lib/libqcci_legacy.so \
   vendor/htc/evitareul/proprietary/lib/libqdi.so:system/lib/libqdi.so \
