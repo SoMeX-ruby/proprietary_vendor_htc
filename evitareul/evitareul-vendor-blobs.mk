@@ -31,6 +31,10 @@ PRODUCT_COPY_FILES += \
   vendor/htc/evitareul/proprietary/bin/dnsmasq:system/bin/dnsmasq \
   vendor/htc/evitareul/proprietary/bin/htcbatt:system/bin/htcbatt \
   vendor/htc/evitareul/proprietary/bin/ip:system/bin/ip \
+  vendor/htc/evitareul/proprietary/bin/IMCdownload:system/bin/IMCdownload \
+  vendor/htc/evitareul/proprietary/bin/InjectionTool:system/bin/InjectionTool \
+  vendor/htc/evitareul/proprietary/bin/poweroff_modem.sh:system/bin/poweroff_modem.sh \
+  vendor/htc/evitareul/proprietary/bin/poweron_modem_fls.sh:system/bin/poweron_modem_fls.sh \
   vendor/htc/evitareul/proprietary/bin/ks:system/bin/ks \
   vendor/htc/evitareul/proprietary/bin/netmgrd:system/bin/netmgrd \
   vendor/htc/evitareul/proprietary/bin/netsharing:system/bin/netsharing \
@@ -38,10 +42,6 @@ PRODUCT_COPY_FILES += \
   vendor/htc/evitareul/proprietary/bin/qmiproxy:system/bin/qmiproxy \
   vendor/htc/evitareul/proprietary/bin/qmuxd:system/bin/qmuxd \
   vendor/htc/evitareul/proprietary/bin/xaplay:system/bin/xaplay \
-  vendor/htc/evitareul/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
-  vendor/htc/evitareul/proprietary/lib/libacdbmapper.so:system/lib/libacdbmapper.so \
-  vendor/htc/evitareul/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
-  vendor/htc/evitareul/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
   vendor/htc/evitareul/proprietary/lib/libaudioavp.so:system/lib/libaudioavp.so \
   vendor/htc/evitareul/proprietary/lib/hw/camera.tegra.so:system/lib/hw/camera.tegra.so \
   vendor/htc/evitareul/proprietary/lib/libcapsjava.so:system/lib/libcapsjava.so \
@@ -75,9 +75,6 @@ PRODUCT_COPY_FILES += \
   vendor/htc/evitareul/proprietary/lib/libnvmmlite_msaudio.so:system/lib/libnvmmlite_msaudio.so \
   vendor/htc/evitareul/proprietary/lib/libnvmmlite_utils.so:system/lib/libnvmmlite_utils.so \
   vendor/htc/evitareul/proprietary/lib/libnvmmlite_video.so:system/lib/libnvmmlite_video.so \
-  vendor/htc/evitareul/proprietary/lib/libolaworks.so:system/lib/libolaworks.so \
-  vendor/htc/evitareul/proprietary/lib/libOlaBase.so:system/lib/libOlaBase.so \
-  vendor/htc/evitareul/proprietary/lib/libOlaEngine.so:system/lib/libOlaEngine.so \
   vendor/htc/evitareul/proprietary/lib/libOlaEngineNew.so:system/lib/libOlaEngineNew.so \
   vendor/htc/evitareul/proprietary/lib/libnvapputil.so:system/lib/libnvapputil.so \
   vendor/htc/evitareul/proprietary/lib/libnvasfparserhal.so:system/lib/libnvasfparserhal.so \
@@ -103,7 +100,6 @@ PRODUCT_COPY_FILES += \
   vendor/htc/evitareul/proprietary/lib/libnvodm_imager.so:system/lib/libnvodm_imager.so \
   vendor/htc/evitareul/proprietary/lib/libnvodm_misc.so:system/lib/libnvodm_misc.so \
   vendor/htc/evitareul/proprietary/lib/libnvodm_query.so:system/lib/libnvodm_query.so \
-  vendor/htc/evitareul/proprietary/lib/libnvomx.so:system/lib/libnvomx.so \
   vendor/htc/evitareul/proprietary/lib/libnvomx.so:system/lib/libnvomx.so \
   vendor/htc/evitareul/proprietary/lib/libnvomxilclient.so:system/lib/libnvomxilclient.so \
   vendor/htc/evitareul/proprietary/lib/libnvsm.so:system/lib/libnvsm.so \
@@ -153,4 +149,4 @@ PRODUCT_COPY_FILES += \
   vendor/htc/evitareul/proprietary/lib/hw/gps.tegra.so:system/lib/hw/gps.tegra.so \
   vendor/htc/evitareul/proprietary/lib/hw/hwcomposer.tegra.so:system/lib/hw/hwcomposer.tegra.so \
   vendor/htc/evitareul/proprietary/lib/hw/nfc.evitareul.so:system/lib/hw/nfc.evitareul.so \
-  vendor/htc/evitareul/proprietary/lib/hw/sensors.evitareul.so:system/lib/hw/sensors.evitareul.so
+  vendor/htc/evitareul/proprietary/lib/hw/sensors.tegra.so:system/lib/hw/sensors.tegra.so
