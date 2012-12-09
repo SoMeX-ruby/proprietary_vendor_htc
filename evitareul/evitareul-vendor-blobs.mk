@@ -91,7 +91,6 @@ PRODUCT_COPY_FILES += \
   vendor/htc/evitareul/proprietary/lib/libnvrm_graphics.so:system/lib/libnvrm_graphics.so \
   vendor/htc/evitareul/proprietary/lib/libnvddk_2d.so:system/lib/libnvddk_2d.so \
   vendor/htc/evitareul/proprietary/lib/libnvddk_2d_v2.so:system/lib/libnvddk_2d_v2.so \
-  vendor/htc/evitareul/proprietary/lib/libnvdispmgr_d.so:system/lib/libnvdispmgr_d.so \
   vendor/htc/evitareul/proprietary/lib/libardrv_dynamic.so:system/lib/libardrv_dynamic.so \
   vendor/htc/evitareul/proprietary/lib/libnvodm_dtvtuner.so:system/lib/libnvodm_dtvtuner.so \
   vendor/htc/evitareul/proprietary/lib/libnvodm_hdmi.so:system/lib/libnvodm_hdmi.so \
