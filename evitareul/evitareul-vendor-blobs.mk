@@ -66,7 +66,6 @@ PRODUCT_COPY_FILES += \
   vendor/htc/evitareul/proprietary/lib/libnvmm_utils.so:system/lib/libnvmm_utils.so \
   vendor/htc/evitareul/proprietary/lib/libnvmm_vc1_video.so:system/lib/libnvmm_vc1_video.so \
   vendor/htc/evitareul/proprietary/lib/libnvmm_video.so:system/lib/libnvmm_video.so \
-  vendor/htc/evitareul/proprietary/lib/libnvmm_vp6_video.so:system/lib/libnvmm_vp6_video.so \
   vendor/htc/evitareul/proprietary/lib/libnvmm_writer.so:system/lib/libnvmm_writer.so \
   vendor/htc/evitareul/proprietary/lib/libnvmmlite.so:system/lib/libnvmmlite.so \
   vendor/htc/evitareul/proprietary/lib/libnvmmlite_audio.so:system/lib/libnvmmlite_audio.so \
