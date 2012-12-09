@@ -31,8 +31,6 @@ PRODUCT_COPY_FILES += \
   vendor/htc/evitareul/proprietary/bin/dnsmasq:system/bin/dnsmasq \
   vendor/htc/evitareul/proprietary/bin/htcbatt:system/bin/htcbatt \
   vendor/htc/evitareul/proprietary/bin/ip:system/bin/ip \
-  vendor/htc/evitareul/proprietary/bin/IMCdownload:system/bin/IMCdownload \
-  vendor/htc/evitareul/proprietary/bin/InjectionTool:system/bin/InjectionTool \
   vendor/htc/evitareul/proprietary/bin/poweroff_modem.sh:system/bin/poweroff_modem.sh \
   vendor/htc/evitareul/proprietary/bin/poweron_modem_fls.sh:system/bin/poweron_modem_fls.sh \
   vendor/htc/evitareul/proprietary/bin/ks:system/bin/ks \
@@ -44,6 +42,7 @@ PRODUCT_COPY_FILES += \
   vendor/htc/evitareul/proprietary/bin/tf-daemon:system/bin/tf-daemon \
   vendor/htc/evitareul/proprietary/bin/xaplay:system/bin/xaplay \
   vendor/htc/evitareul/proprietary/lib/libaudioavp.so:system/lib/libaudioavp.so \
+  vendor/htc/evitareul/proprietary/lib/asound:system/lib/asound \
   vendor/htc/evitareul/proprietary/lib/hw/camera.tegra.so:system/lib/hw/camera.tegra.so \
   vendor/htc/evitareul/proprietary/lib/libcapsjava.so:system/lib/libcapsjava.so \
   vendor/htc/evitareul/proprietary/lib/libscalado.so:system/lib/libscalado.so \
@@ -145,8 +144,5 @@ PRODUCT_COPY_FILES += \
   vendor/htc/evitareul/proprietary/lib/libmpl_jni.so:system/lib/libmpl_jni.so \
   vendor/htc/evitareul/proprietary/lib/hw/gralloc.tegra.so:system/lib/hw/gralloc.tegra.so \
   vendor/htc/evitareul/proprietary/lib/hw/hwcomposer.tegra.so:system/lib/hw/hwcomposer.tegra.so \
-  vendor/htc/evitareul/proprietary/lib/hw/audio.primary.tegra.so:system/lib/hw/audio.primary.tegra.so \
   vendor/htc/evitareul/proprietary/lib/hw/audio_policy.tegra.so:system/lib/hw/audio_policy.tegra.so \
-  vendor/htc/evitareul/proprietary/lib/hw/gps.tegra.so:system/lib/hw/gps.tegra.so \
-  vendor/htc/evitareul/proprietary/lib/hw/hwcomposer.tegra.so:system/lib/hw/hwcomposer.tegra.so \
-  vendor/htc/evitareul/proprietary/lib/hw/sensors.tegra.so:system/lib/hw/sensors.tegra.so
+  vendor/htc/evitareul/proprietary/lib/hw/sensors.evitareul.so:system/lib/hw/sensors.evitareul.so
