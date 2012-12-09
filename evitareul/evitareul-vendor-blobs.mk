@@ -39,7 +39,7 @@ PRODUCT_COPY_FILES += \
   vendor/htc/evitareul/proprietary/bin/qcks:system/bin/qcks \
   vendor/htc/evitareul/proprietary/bin/qmiproxy:system/bin/qmiproxy \
   vendor/htc/evitareul/proprietary/bin/qmuxd:system/bin/qmuxd \
-  vendor/htc/evitareul/proprietary/bin/tf-daemon:system/bin/tf-daemon \
+  vendor/htc/evitareul/proprietary/bin/tf_daemon:system/bin/tf_daemon \
   vendor/htc/evitareul/proprietary/bin/xaplay:system/bin/xaplay \
   vendor/htc/evitareul/proprietary/lib/libaudioavp.so:system/lib/libaudioavp.so \
   vendor/htc/evitareul/proprietary/lib/asound:system/lib/asound \
