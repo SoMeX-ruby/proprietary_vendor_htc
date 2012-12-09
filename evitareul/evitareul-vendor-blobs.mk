@@ -41,6 +41,7 @@ PRODUCT_COPY_FILES += \
   vendor/htc/evitareul/proprietary/bin/qcks:system/bin/qcks \
   vendor/htc/evitareul/proprietary/bin/qmiproxy:system/bin/qmiproxy \
   vendor/htc/evitareul/proprietary/bin/qmuxd:system/bin/qmuxd \
+  vendor/htc/evitareul/proprietary/bin/tf-daemon:system/bin/tf-daemon \
   vendor/htc/evitareul/proprietary/bin/xaplay:system/bin/xaplay \
   vendor/htc/evitareul/proprietary/lib/libaudioavp.so:system/lib/libaudioavp.so \
   vendor/htc/evitareul/proprietary/lib/hw/camera.tegra.so:system/lib/hw/camera.tegra.so \
@@ -108,7 +109,7 @@ PRODUCT_COPY_FILES += \
   vendor/htc/evitareul/proprietary/lib/libnvtvmr.so:system/lib/libnvtvmr.so \
   vendor/htc/evitareul/proprietary/lib/libnvwinsys.so:system/lib/libnvwinsys.so \
   vendor/htc/evitareul/proprietary/lib/libnvwsi.so:system/lib/libnvwsi.so \
-  vendor/htc/evitareul/proprietary/lib/hw/nfc.ruby.so:system/lib/hw/nfc.ruby.so \
+  vendor/htc/evitareul/proprietary/lib/hw/nfc.evitareul.so:system/lib/hw/nfc.evitareul.so \
   vendor/htc/evitareul/proprietary/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so \
   vendor/htc/evitareul/proprietary/lib/libdiag.so:system/lib/libdiag.so \
   vendor/htc/evitareul/proprietary/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
@@ -148,5 +149,4 @@ PRODUCT_COPY_FILES += \
   vendor/htc/evitareul/proprietary/lib/hw/audio_policy.tegra.so:system/lib/hw/audio_policy.tegra.so \
   vendor/htc/evitareul/proprietary/lib/hw/gps.tegra.so:system/lib/hw/gps.tegra.so \
   vendor/htc/evitareul/proprietary/lib/hw/hwcomposer.tegra.so:system/lib/hw/hwcomposer.tegra.so \
-  vendor/htc/evitareul/proprietary/lib/hw/nfc.evitareul.so:system/lib/hw/nfc.evitareul.so \
   vendor/htc/evitareul/proprietary/lib/hw/sensors.tegra.so:system/lib/hw/sensors.tegra.so
