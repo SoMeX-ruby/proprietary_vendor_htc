@@ -60,7 +60,6 @@ PRODUCT_COPY_FILES += \
   vendor/htc/evitareul/proprietary/lib/libnvmm_contentpipe.so:system/lib/libnvmm_contentpipe.so \
   vendor/htc/evitareul/proprietary/lib/libnvmm_image.so:system/lib/libnvmm_image.so \
   vendor/htc/evitareul/proprietary/lib/libnvmm_manager.so:system/lib/libnvmm_manager.so \
-  vendor/htc/evitareul/proprietary/lib/libnvmm_misc.so:system/lib/libnvmm_misc.so \
   vendor/htc/evitareul/proprietary/lib/libnvmm_msaudio.so:system/lib/libnvmm_msaudio.so \
   vendor/htc/evitareul/proprietary/lib/libnvmm_parser.so:system/lib/libnvmm_parser.so \
   vendor/htc/evitareul/proprietary/lib/libnvmm_service.so:system/lib/libnvmm_service.so \
