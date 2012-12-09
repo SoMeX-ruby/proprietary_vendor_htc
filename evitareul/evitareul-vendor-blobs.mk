@@ -132,7 +132,6 @@ PRODUCT_COPY_FILES += \
   vendor/htc/evitareul/proprietary/lib/libhtcsurfaces.so:system/lib/libhtcsurfaces.so \
   vendor/htc/evitareul/proprietary/lib/libnvcontrol_jni.so:system/lib/libnvcontrol_jni.so \
   vendor/htc/evitareul/proprietary/lib/libnvcpud.so:system/lib/libnvcpud.so \
-  vendor/htc/evitareul/proprietary/lib/libcall_volume.so:system/lib/libcall_volume.so \
   vendor/htc/evitareul/proprietary/lib/libbt-aptx-4.0.3.so:system/lib/libbt-aptx-4.0.3.so \
   vendor/htc/evitareul/proprietary/lib/libmllite.so:system/lib/libmllite.so \
   vendor/htc/evitareul/proprietary/lib/libmlplatform.so:system/lib/libmlplatform.so \
