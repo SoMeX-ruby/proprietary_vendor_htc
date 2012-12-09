@@ -42,7 +42,7 @@ PRODUCT_COPY_FILES += \
   vendor/htc/evitareul/proprietary/bin/tf_daemon:system/bin/tf_daemon \
   vendor/htc/evitareul/proprietary/bin/xaplay:system/bin/xaplay \
   vendor/htc/evitareul/proprietary/lib/libaudioavp.so:system/lib/libaudioavp.so \
-  vendor/htc/evitareul/proprietary/lib/libasound:system/lib/libasound \
+  vendor/htc/evitareul/proprietary/lib/libasound.so:system/lib/libasound.so \
   vendor/htc/evitareul/proprietary/lib/hw/camera.tegra.so:system/lib/hw/camera.tegra.so \
   vendor/htc/evitareul/proprietary/lib/libcapsjava.so:system/lib/libcapsjava.so \
   vendor/htc/evitareul/proprietary/lib/libscalado.so:system/lib/libscalado.so \
