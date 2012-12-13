@@ -27,41 +27,19 @@ PRODUCT_COPY_FILES += \
 	vendor/htc/leo/proprietary/AudioBTID.csv:system/etc/AudioBTID.csv \
 	vendor/htc/leo/proprietary/bcm4329.hcd:system/etc/firmware/bcm4329.hcd \
 	vendor/htc/leo/proprietary/default.acdb:system/etc/firmware/default.acdb \
-	vendor/htc/leo/proprietary/yamato_pfp.fw:system/etc/firmware/yamato_pfp.fw \
-	vendor/htc/leo/proprietary/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw \
-	vendor/htc/leo/proprietary/libgsl.so:system/lib/libgsl.so \
 	vendor/htc/leo/proprietary/libhtc_acoustic.so:system/lib/libhtc_acoustic.so \
-	vendor/htc/leo/proprietary/libhtc_ril.so:system/lib/libhtc_ril.so \
-	vendor/htc/leo/proprietary/libhtc_ril_wrapper.so:system/lib/libhtc_ril_wrapper.so \
-	vendor/htc/leo/proprietary/libsc-a2xx.so:system/lib/libsc-a2xx.so
+	vendor/htc/leo/proprietary/libhtc_ril.so:system/lib/libhtc_ril.so 
 
 # Camera
 PRODUCT_COPY_FILES += \
 	vendor/htc/leo/proprietary/libcamera.so:system/lib/libcamera.so \
 	vendor/htc/leo/proprietary/liboemcamera.so:system/lib/liboemcamera.so
 
-# Lights & Sensors
-PRODUCT_COPY_FILES += \
-        vendor/htc/leo/proprietary/lights.htcleo.so:system/lib/hw/lights.htcleo.so \
-        vendor/htc/leo/proprietary/sensors.htcleo.so:system/lib/hw/sensors.htcleo.so
 # GPS
 PRODUCT_COPY_FILES += \
 	vendor/htc/leo/proprietary/librpc.so:system/lib/librpc.so \
-	vendor/htc/leo/proprietary/libgps.so:system/lib/libgps.so \
-        vendor/htc/leo/proprietary/gps.htcleo.so:system/lib/hw/gps.htcleo.so
+	vendor/htc/leo/proprietary/libgps.so:system/lib/libgps.so 
 
 # Ril
 PRODUCT_COPY_FILES += \
-	vendor/htc/leo/proprietary/libril.so:system/lib/libril.so \
-	vendor/htc/leo/proprietary/libqc-opt.so:system/lib/libqc-opt.so \
-	vendor/htc/leo/proprietary/libreference-ril.so:system/lib/libreference-ril.so \
-	vendor/htc/leo/proprietary/libqdutils.so:system/lib/libqdutils.so \
-	vendor/htc/leo/proprietary/rild:system/bin/rild 
-
-# HW Acceleration
-PRODUCT_COPY_FILES += \
-	vendor/htc/leo/proprietary/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
-	vendor/htc/leo/proprietary/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
-	vendor/htc/leo/proprietary/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
-	vendor/htc/leo/proprietary/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
-	vendor/htc/leo/proprietary/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so
+	vendor/htc/leo/proprietary/libril.so:system/lib/libril.so 
