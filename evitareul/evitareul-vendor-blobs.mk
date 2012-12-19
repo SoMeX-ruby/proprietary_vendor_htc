@@ -37,8 +37,9 @@ PRODUCT_COPY_FILES += \
   vendor/htc/evitareul/proprietary/bin/qmuxd:system/bin/qmuxd \
   vendor/htc/evitareul/proprietary/bin/tf_daemon:system/bin/tf_daemon \
   vendor/htc/evitareul/proprietary/bin/xaplay:system/bin/xaplay \
+  vendor/htc/evitareul/proprietary/lib/hw/audio.primary.tegra.so:system/lib/hw/audio.primary.tegra.so \
   vendor/htc/evitareul/proprietary/lib/libaudioavp.so:system/lib/libaudioavp.so \
-  vendor/htc/evitareul/proprietary/lib/libasound.so:system/lib/libasound.so \
+  vendor/htc/evitareul/proprietary/libasound.so:system/libasound.so \
   vendor/htc/evitareul/proprietary/lib/hw/camera.tegra.so:system/lib/hw/camera.tegra.so \
   vendor/htc/evitareul/proprietary/lib/libcapsjava.so:system/lib/libcapsjava.so \
   vendor/htc/evitareul/proprietary/lib/libscalado.so:system/lib/libscalado.so \
@@ -78,6 +79,9 @@ PRODUCT_COPY_FILES += \
   vendor/htc/evitareul/proprietary/lib/egl/libEGL_perfhud.so:system/lib/egl/libEGL_perfhud.so \
   vendor/htc/evitareul/proprietary/lib/egl/libGLESv1_CM_perfhud.so:system/lib/egl/libGLESv1_CM_perfhud.so \
   vendor/htc/evitareul/proprietary/lib/egl/libGLESv1_CM_tegra.so:system/lib/egl/libGLESv1_CM_tegra.so \
+  vendor/htc/evitareul/proprietary/lib/libGLESv1_CM_tegra_impl.so:system/lib/libGLESv1_CM_tegra_impl.so \
+  vendor/htc/evitareul/proprietary/lib/libGLESv2_tegra_impl.so:system/lib/libGLESv2_tegra_impl.so \
+  vendor/htc/evitareul/proprietary/lib/libEGL_tegra_impl.so:system/lib/libEGL_tegra_impl.so \
   vendor/htc/evitareul/proprietary/lib/egl/libGLESv2_perfhud.so:system/lib/egl/libGLESv2_perfhud.so \
   vendor/htc/evitareul/proprietary/lib/egl/libGLESv2_tegra.so:system/lib/egl/libGLESv2_tegra.so \
   vendor/htc/evitareul/proprietary/lib/libcgdrv.so:system/lib/libcgdrv.so \
@@ -135,4 +139,7 @@ PRODUCT_COPY_FILES += \
   vendor/htc/evitareul/proprietary/lib/hw/gralloc.tegra.so:system/lib/hw/gralloc.tegra.so \
   vendor/htc/evitareul/proprietary/lib/hw/hwcomposer.tegra.so:system/lib/hw/hwcomposer.tegra.so \
   vendor/htc/evitareul/proprietary/lib/hw/audio_policy.tegra.so:system/lib/hw/audio_policy.tegra.so \
-  vendor/htc/evitareul/proprietary/lib/hw/sensors.evitareul.so:system/lib/hw/sensors.evitareul.so
+  vendor/htc/evitareul/proprietary/lib/hw/sensors.evitareul.so:system/lib/hw/sensors.evitareul.so \
+  vendor/htc/evitareul/proprietary/lib/hw/gralloc.default.so:system/lib/hw/gralloc.default.so \
+  vendor/htc/evitareul/proprietary/bin/surface_flinger:system/bin/surface_flinger \
+  vendor/htc/evitareul/proprietary/lib/libnvcam_imageencoder.so:system/lib/libnvcam_imageencoder.so
