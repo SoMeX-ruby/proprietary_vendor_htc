@@ -130,7 +130,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/lib/libcapsjava.so:/system/lib/libcapsjava.so \
     $(LOCAL_PATH)/proprietary/lib/libdumppcm.so:/system/lib/libdumppcm.so \
     $(LOCAL_PATH)/proprietary/lib/libril.so:/system/lib/libril.so \
-    $(LOCAL_PATH)/proprietary/lib/libril-icera.so:/system/lib/libril-icera.so \
     $(LOCAL_PATH)/proprietary/lib/libscaladoapi.so:/system/lib/libscaladoapi.so \
     $(LOCAL_PATH)/proprietary/lib/libscalado_htcalbum2.so:/system/lib/libscalado_htcalbum2.so \
     $(LOCAL_PATH)/proprietary/lib/libscaladoutil.so:/system/lib/libscaladoutil.so \
