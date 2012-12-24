@@ -28,7 +28,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/bin/logcat2:/system/bin/logcat2 \
     $(LOCAL_PATH)/proprietary/bin/htcfs:/system/bin/htcfs \
     $(LOCAL_PATH)/proprietary/bin/qcks:/system/bin/qcks \
-    $(LOCAL_PATH)/proprietary/bin/htc_ebdlogd:/system/bin/htc_ebdlogd \
     $(LOCAL_PATH)/proprietary/lib/egl/libEGL_perfhud.so:/system/lib/egl/libEGL_perfhud.so \
     $(LOCAL_PATH)/proprietary/lib/egl/libEGL_tegra.so:/system/lib/egl/libEGL_tegra.so \
     $(LOCAL_PATH)/proprietary/lib/egl/libEGL_tegra_impl.so:/system/lib/egl/libEGL_tegra_impl.so \
@@ -45,8 +44,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/lib/hw/gps.tegra.so:/system/lib/hw/gps.tegra.so \
     $(LOCAL_PATH)/proprietary/lib/hw/audio.primary.tegra.so:/system/lib/hw/audio.primary.tegra.so \
     $(LOCAL_PATH)/proprietary/lib/hw/camera.tegra.so:/system/lib/hw/camera.tegra.so \
-    $(LOCAL_PATH)/proprietary/lib/hw/sensors.enrc2b.so:/system/lib/hw/sensors.enrc2b.so \
-    $(LOCAL_PATH)/proprietary/lib/hw/nfc.enrc2b.so:/system/lib/hw/nfc.enrc2b.so \
+    $(LOCAL_PATH)/proprietary/lib/hw/sensors.evitareul.so:/system/lib/hw/sensors.enrc2b.so \
+    $(LOCAL_PATH)/proprietary/lib/hw/nfc.evitareul.so:/system/lib/hw/nfc.enrc2b.so \
     $(LOCAL_PATH)/proprietary/lib/libardrv_dynamic.so:/system/lib/libardrv_dynamic.so \
     $(LOCAL_PATH)/proprietary/lib/libcall_volume.so:/system/lib/libcall_volume.so \
     $(LOCAL_PATH)/proprietary/lib/libcgdrv.so:/system/lib/libcgdrv.so \
