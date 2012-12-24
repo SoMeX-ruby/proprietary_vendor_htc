@@ -17,7 +17,6 @@
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/bin/atpipe_plain:/system/bin/atpipe_plain \
     $(LOCAL_PATH)/proprietary/bin/ks:/system/bin/ks \
-    $(LOCAL_PATH)/proprietary/bin/getnvm.sh:/system/bin/getnvm.sh \
     $(LOCAL_PATH)/proprietary/bin/rild:/system/bin/rild \
     $(LOCAL_PATH)/proprietary/bin/tf_daemon:/system/bin/tf_daemon \
     $(LOCAL_PATH)/proprietary/bin/hdmid:/system/bin/hdmid \
