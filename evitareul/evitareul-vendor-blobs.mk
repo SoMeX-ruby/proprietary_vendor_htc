@@ -48,8 +48,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/lib/hw/nfc.evitareul.so:/system/lib/hw/nfc.enrc2b.so \
     $(LOCAL_PATH)/proprietary/lib/libardrv_dynamic.so:/system/lib/libardrv_dynamic.so \
     $(LOCAL_PATH)/proprietary/lib/libcgdrv.so:/system/lib/libcgdrv.so \
-    $(LOCAL_PATH)/proprietary/lib/libhtc_dis.so:/system/lib/libhtc_dis.so \
-    $(LOCAL_PATH)/proprietary/lib/libhtc_ril.so:/system/lib/libhtc_ril.so \
     $(LOCAL_PATH)/proprietary/lib/libhtc_rilhook.so:/system/lib/libhtc_rilhook.so \
     $(LOCAL_PATH)/proprietary/lib/libhtcsurfaces.so:/system/lib/libhtcsurfaces.so \
     $(LOCAL_PATH)/proprietary/lib/libmllite.so:/system/lib/libmllite.so \
