@@ -47,7 +47,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/lib/hw/sensors.evitareul.so:/system/lib/hw/sensors.enrc2b.so \
     $(LOCAL_PATH)/proprietary/lib/hw/nfc.evitareul.so:/system/lib/hw/nfc.enrc2b.so \
     $(LOCAL_PATH)/proprietary/lib/libardrv_dynamic.so:/system/lib/libardrv_dynamic.so \
-    $(LOCAL_PATH)/proprietary/lib/libcall_volume.so:/system/lib/libcall_volume.so \
     $(LOCAL_PATH)/proprietary/lib/libcgdrv.so:/system/lib/libcgdrv.so \
     $(LOCAL_PATH)/proprietary/lib/libhtc_dis.so:/system/lib/libhtc_dis.so \
     $(LOCAL_PATH)/proprietary/lib/libhtc_ril.so:/system/lib/libhtc_ril.so \
