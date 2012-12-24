@@ -27,7 +27,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/bin/poweroff_modem.sh:/system/bin/poweroff_modem.sh \
     $(LOCAL_PATH)/proprietary/bin/logcat2:/system/bin/logcat2 \
     $(LOCAL_PATH)/proprietary/bin/htcfs:/system/bin/htcfs \
-    $(LOCAL_PATH)/proprietary/etc/voicemail-conf.xml:/system/etc/voicemail-conf.xml \
     $(LOCAL_PATH)/proprietary/bin/qcks:/system/bin/qcks \
     $(LOCAL_PATH)/proprietary/bin/htc_ebdlogd:/system/bin/htc_ebdlogd \
     $(LOCAL_PATH)/proprietary/lib/egl/libEGL_perfhud.so:/system/lib/egl/libEGL_perfhud.so \
