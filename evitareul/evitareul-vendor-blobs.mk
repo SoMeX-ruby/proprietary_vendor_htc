@@ -19,23 +19,15 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/bin/ks:/system/bin/ks \
     $(LOCAL_PATH)/proprietary/bin/rild:/system/bin/rild \
     $(LOCAL_PATH)/proprietary/bin/tf_daemon:/system/bin/tf_daemon \
-    $(LOCAL_PATH)/proprietary/bin/hdmid:/system/bin/hdmid \
     $(LOCAL_PATH)/proprietary/bin/htcbatt:/system/bin/htcbatt \
-    $(LOCAL_PATH)/proprietary/bin/mtpd:/system/bin/mtpd \
-    $(LOCAL_PATH)/proprietary/bin/gsm0710muxd:/system/bin/gsm0710muxd \
     $(LOCAL_PATH)/proprietary/bin/make_sec_bin:/system/bin/make_sec_bin \
     $(LOCAL_PATH)/proprietary/bin/mknod:/system/bin/mknod \
-    $(LOCAL_PATH)/proprietary/bin/nvm_client:/system/bin/nvm_client \
-    $(LOCAL_PATH)/proprietary/bin/nvm_server:/system/bin/nvm_server \
+    $(LOCAL_PATH)/proprietary/bin/mtpd:/system/bin/mtpd \
     $(LOCAL_PATH)/proprietary/bin/poweron_modem_fls.sh:/system/bin/poweron_modem_fls.sh \
-    $(LOCAL_PATH)/proprietary/bin/poweron_modem_hboot.sh:/system/bin/poweron_modem_hboot.sh \
     $(LOCAL_PATH)/proprietary/bin/poweroff_modem.sh:/system/bin/poweroff_modem.sh \
     $(LOCAL_PATH)/proprietary/bin/logcat2:/system/bin/logcat2 \
-    $(LOCAL_PATH)/proprietary/bin/hdcp_test:/system/bin/hdcp_test \
-    $(LOCAL_PATH)/proprietary/bin/nvtest:/system/bin/nvtest \
     $(LOCAL_PATH)/proprietary/etc/media_codecs.xml:/system/etc/media_codecs.xml \
     $(LOCAL_PATH)/proprietary/etc/nfcee_access.xml:/system/etc/nfcee_access.xml \
-    $(LOCAL_PATH)/proprietary/bin/DxDrmServerIpc:/system/bin/DxDrmServerIpc \
     $(LOCAL_PATH)/proprietary/bin/htcfs:/system/bin/htcfs \
     $(LOCAL_PATH)/proprietary/etc/voicemail-conf.xml:/system/etc/voicemail-conf.xml \
     $(LOCAL_PATH)/proprietary/bin/qcks:/system/bin/qcks \
