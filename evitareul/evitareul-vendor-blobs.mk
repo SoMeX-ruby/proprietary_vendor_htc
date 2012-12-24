@@ -162,4 +162,6 @@ PRODUCT_COPY_FILES += \
   vendor/htc/evitareul/proprietary/etc/tfa/voice.config:system/etc/tfa/voice.config \
   vendor/htc/evitareul/proprietary/etc/tfa/voice.eq:system/etc/tfa/voice.eq \
   vendor/htc/evitareul/proprietary/etc/tfa/voice.preset:system/etc/tfa/voice.preset \
-  vendor/htc/evitareul/proprietary/etc/tfa/voice.speaker:system/etc/tfa/voice.speaker
+  vendor/htc/evitareul/proprietary/etc/tfa/voice.speaker:system/etc/tfa/voice.speaker \
+  vendor/htc/evitareul/proprietary/lib/libaudioavp.so:system/lib/libaudioavp.so \
+  vendor/htc/evitareul/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so
