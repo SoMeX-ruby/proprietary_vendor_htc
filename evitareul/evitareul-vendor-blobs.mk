@@ -32,7 +32,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/bin/poweron_modem_hboot.sh:/system/bin/poweron_modem_hboot.sh \
     $(LOCAL_PATH)/proprietary/bin/poweroff_modem.sh:/system/bin/poweroff_modem.sh \
     $(LOCAL_PATH)/proprietary/bin/logcat2:/system/bin/logcat2 \
-    $(LOCAL_PATH)/proprietary/bin/getnvm.sh:/system/bin/getnvm.sh \
     $(LOCAL_PATH)/proprietary/bin/hdcp_test:/system/bin/hdcp_test \
     $(LOCAL_PATH)/proprietary/bin/nvtest:/system/bin/nvtest \
     $(LOCAL_PATH)/proprietary/etc/media_codecs.xml:/system/etc/media_codecs.xml \
