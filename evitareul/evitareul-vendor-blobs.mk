@@ -16,7 +16,7 @@
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/bin/atpipe_plain:/system/bin/atpipe_plain \
-    $(LOCAL_PATH)/proprietary/bin/fild:/system/bin/fild \
+    $(LOCAL_PATH)/proprietary/bin/ks:/system/bin/ks \
     $(LOCAL_PATH)/proprietary/bin/getnvm.sh:/system/bin/getnvm.sh \
     $(LOCAL_PATH)/proprietary/bin/rild:/system/bin/rild \
     $(LOCAL_PATH)/proprietary/bin/tf_daemon:/system/bin/tf_daemon \
@@ -40,7 +40,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/bin/DxDrmServerIpc:/system/bin/DxDrmServerIpc \
     $(LOCAL_PATH)/proprietary/bin/htcfs:/system/bin/htcfs \
     $(LOCAL_PATH)/proprietary/etc/voicemail-conf.xml:/system/etc/voicemail-conf.xml \
-    $(LOCAL_PATH)/proprietary/bin/IMCdownload:/system/bin/IMCdownload \
+    $(LOCAL_PATH)/proprietary/bin/qcks:/system/bin/qcks \
     $(LOCAL_PATH)/proprietary/bin/htc_ebdlogd:/system/bin/htc_ebdlogd \
     $(LOCAL_PATH)/proprietary/lib/egl/libEGL_perfhud.so:/system/lib/egl/libEGL_perfhud.so \
     $(LOCAL_PATH)/proprietary/lib/egl/libEGL_tegra.so:/system/lib/egl/libEGL_tegra.so \
