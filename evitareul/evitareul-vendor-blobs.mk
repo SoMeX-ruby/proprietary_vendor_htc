@@ -127,7 +127,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/vendor/lib/libwvm.so:/system/lib/libwvm.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libwvdrm_L1.so:/system/lib/libwvdrm_L1.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:/system/lib/libWVStreamControlAPI_L1.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libdrmwvmplugin.so:/system/lib/drm/libdrmwvmplugin.so \
     $(LOCAL_PATH)/proprietary/lib/libcapsjava.so:/system/lib/libcapsjava.so \
     $(LOCAL_PATH)/proprietary/lib/libbt-aptx-4.1.1.so:/system/lib/libbt-aptx-4.1.1.so \
     $(LOCAL_PATH)/proprietary/lib/libdumppcm.so:/system/lib/libdumppcm.so \
