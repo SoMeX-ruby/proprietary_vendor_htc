@@ -17,7 +17,6 @@
 PRODUCT_COPY_FILES += \
   vendor/htc/evitareul/proprietary/bin/atpipe_plain:system/bin/atpipe_plain \
   vendor/htc/evitareul/proprietary/bin/ks:system/bin/ks \
-  vendor/htc/evitareul/proprietary/bin/rild:system/bin/rild \
   vendor/htc/evitareul/proprietary/bin/tf_daemon:system/bin/tf_daemon \
   vendor/htc/evitareul/proprietary/bin/htcbatt:system/bin/htcbatt \
   vendor/htc/evitareul/proprietary/bin/make_sec_bin:system/bin/make_sec_bin \
