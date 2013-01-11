@@ -26,7 +26,6 @@ PRODUCT_COPY_FILES += \
   vendor/htc/ruby/proprietary/etc/vpimg:system/etc/vpimg \
   vendor/htc/ruby/proprietary/bin/akmd:system/bin/akmd \
   vendor/htc/ruby/proprietary/bin/awb_camera:system/bin/awb_camera \
-  vendor/htc/ruby/proprietary/bin/calibrator:system/bin/calibrator \
   vendor/htc/ruby/proprietary/bin/charging:system/bin/charging \
   vendor/htc/ruby/proprietary/bin/ewtzmud:system/bin/ewtzmud \
   vendor/htc/ruby/proprietary/bin/htcbatt:system/bin/htcbatt \
@@ -81,20 +80,6 @@ PRODUCT_COPY_FILES += \
   vendor/htc/ruby/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
   vendor/htc/ruby/proprietary/lib/liboncrpc.so:system/lib/liboncrpc.so \
   vendor/htc/ruby/proprietary/lib/libpbmlib.so:system/lib/libpbmlib.so \
-  vendor/htc/ruby/proprietary/lib/libcneapiclient.so:system/lib/libcneapiclient.so \
-  vendor/htc/ruby/proprietary/lib/libcneqmiutils.so:system/lib/libcneqmiutils.so \
-  vendor/htc/ruby/proprietary/lib/libdnshostprio.so:system/lib/libdnshostprio.so \
-  vendor/htc/ruby/proprietary/lib/libDivxDrm.so:system/lib/libDivxDrm.so \
-  vendor/htc/ruby/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
-  vendor/htc/ruby/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
-  vendor/htc/ruby/proprietary/lib/libmmparser.so:system/lib/libmmparser.so \
-  vendor/htc/ruby/proprietary/lib/libmmparser_divxdrmlib.so:system/lib/libmmparser_divxdrmlib.so \
-  vendor/htc/ruby/proprietary/lib/libwvdrm_L3.so:system/lib/libwvdrm_L3.so \
-  vendor/htc/ruby/proprietary/lib/libwvm.so:system/lib/libwvm.so \
-  vendor/htc/ruby/proprietary/lib/libWVphoneAPI.so:system/lib/libWVphoneAPI.so \
-  vendor/htc/ruby/proprietary/lib/libWVStreamControlAPI_L3.so:system/lib/libWVStreamControlAPI_L3.so \
-  vendor/htc/ruby/proprietary/lib/drm/libdrmwvmplugin.so:system/lib/drm/libdrmwvmplugin.so \
-  vendor/htc/ruby/proprietary/lib/drm/libhtcomaplugin.so:system/lib/drm/libhtcomaplugin.so \
   vendor/htc/ruby/proprietary/lib/hw/nfc.ruby.so:system/lib/hw/nfc.ruby.so \
   vendor/htc/ruby/proprietary/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so \
   vendor/htc/ruby/proprietary/lib/libdiag.so:system/lib/libdiag.so \
