@@ -27,6 +27,7 @@ PRODUCT_COPY_FILES += \
   vendor/htc/evitareul/proprietary/bin/logcat2:system/bin/logcat2 \
   vendor/htc/evitareul/proprietary/bin/htcfs:system/bin/htcfs \
   vendor/htc/evitareul/proprietary/bin/qcks:system/bin/qcks \
+  vendor/htc/evitareul/proprietary/bin/surfaceflinger:system/bin/surfaceflinger \
   vendor/htc/evitareul/proprietary/lib/egl/libEGL_perfhud.so:system/lib/egl/libEGL_perfhud.so \
   vendor/htc/evitareul/proprietary/lib/egl/libEGL_tegra.so:system/lib/egl/libEGL_tegra.so \
   vendor/htc/evitareul/proprietary/lib/egl/libEGL_tegra_impl.so:system/lib/egl/libEGL_tegra_impl.so \
@@ -115,6 +116,7 @@ PRODUCT_COPY_FILES += \
   vendor/htc/evitareul/proprietary/lib/libposteffect.so:system/lib/libposteffect.so \
   vendor/htc/evitareul/proprietary/lib/libscalado.so:system/lib/libscalado.so \
   vendor/htc/evitareul/proprietary/lib/libsensors_mpl.so:system/lib/libsensors_mpl.so \
+  vendor/htc/evitareul/proprietary/lib/libsurfaceflinger.so:system/lib/libsurfaceflinger.so \
   vendor/htc/evitareul/proprietary/lib/libhtcsunny2engine.so:system/lib/libhtcsunny2engine.so \
   vendor/htc/evitareul/proprietary/lib/libhtcsunnyengine.so:system/lib/libhtcsunnyengine.so \
   vendor/htc/evitareul/proprietary/lib/libhtccamera.so:system/lib/libhtccamera.so \
