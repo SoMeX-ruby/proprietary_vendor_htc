@@ -42,9 +42,4 @@ PRODUCT_COPY_FILES += \
 
 # Ril
 PRODUCT_COPY_FILES += \
-	vendor/htc/leo/proprietary/libril.so:system/lib/libril.so
-
-# Prebuilt HW
-PRODUCT_COPY_FILES += \
-	vendor/htc/leo/proprietary/copybit.qsd8k.so:system/lib/hw/copybit.qsd8k.so \
-	vendor/htc/leo/proprietary/hwcomposer.qsd8k.so:system/lib/hw/hwcomposer.qsd8k.so 
+	vendor/htc/leo/proprietary/libril.so:system/lib/libril.so 
