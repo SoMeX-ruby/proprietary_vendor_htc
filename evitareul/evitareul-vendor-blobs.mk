@@ -27,9 +27,17 @@ PRODUCT_COPY_FILES += \
     vendor/htc/evitareul/proprietary/etc/media_codecs.xml:/system/etc/media_codecs.xml \
     vendor/htc/evitareul/proprietary/etc/nfcee_access.xml:/system/etc/nfcee_access.xml \
     vendor/htc/evitareul/proprietary/bin/htcfs:/system/bin/htcfs \
-    vendor/htc/evitareul/proprietary/etc/voicemail-conf.xml:/system/etc/voicemail-conf.xml
-
-PRODUCT_COPY_FILES += \
+    vendor/htc/evitareul/proprietary/etc/voicemail-conf.xml:/system/etc/voicemail-conf.xml \
+    vendor/htc/evitareul/proprietary/bin/IMCdownload:/system/bin/IMCdownload \
+    vendor/htc/evitareul/proprietary/bin/InjectionTool:/system/bin/InjectionTool \
+    vendor/htc/evitareul/proprietary/bin/ks:/system/bin/ks \
+    vendor/htc/evitareul/proprietary/bin/hdmid:/system/bin/hdmid \
+    vendor/htc/evitareul/proprietary/bin/cand:/system/bin/cand \
+    vendor/htc/evitareul/proprietary/bin/DxDrmServerIpc:/system/bin/DxDrmServerIpc \
+    vendor/htc/evitareul/proprietary/bin/efsks:/system/bin/efsks \
+    vendor/htc/evitareul/proprietary/bin/nvtest:/system/bin/nvtest \
+    vendor/htc/evitareul/proprietary/bin/poweron_modem_hboot.sh:/system/bin/poweron_modem_hboot.sh \
+    vendor/htc/evitareul/proprietary/bin/qcks:/system/bin/qcks \
     vendor/htc/evitareul/proprietary/lib/egl/libEGL_perfhud.so:/system/lib/egl/libEGL_perfhud.so \
     vendor/htc/evitareul/proprietary/lib/egl/libEGL_tegra.so:/system/lib/egl/libEGL_tegra.so \
     vendor/htc/evitareul/proprietary/lib/egl/libEGL_tegra_impl.so:/system/lib/egl/libEGL_tegra_impl.so \
@@ -143,14 +151,22 @@ PRODUCT_COPY_FILES += \
     vendor/htc/evitareul/proprietary/lib/libscalado_htcalbum2.so:/system/lib/libscalado_htcalbum2.so \
     vendor/htc/evitareul/proprietary/lib/libscaladoutil.so:/system/lib/libscaladoutil.so \
     vendor/htc/evitareul/proprietary/lib/libhtc-opt2.so:/system/lib/libhtc-opt2.so \
-    vendor/htc/evitareul/proprietary/usr/idc/atmel-maxtouch.idc:system/usr/idc/atmel-maxtouch.idc \
-    vendor/htc/evitareul/proprietary/usr/idc/synaptics-rmi-touchscreen.idc:system/usr/idc/synaptics-rmi-touchscreen.idc \
-    vendor/htc/evitareul/proprietary/usr/idc/tv-touchscreen.idc:system/usr/idc/tv-touchscreen.idc \
-    vendor/htc/evitareul/proprietary/usr/keylayout/AVRCP.kl:system/usr/keylayout/AVRCP.kl \
-    vendor/htc/evitareul/proprietary/usr/keylayout/projector-Keypad.kl:system/usr/keylayout/projector-Keypad.kl \
-    vendor/htc/evitareul/proprietary/usr/keylayout/qwerty.kl:system/usr/keylayout/qwerty.kl \
-    vendor/htc/evitareul/proprietary/usr/keylayout/tegra-kbc.kl:system/usr/keylayout/tegra-kbc.kl \
-    vendor/htc/evitareul/proprietary/usr/keychars/qwerty.kcm:system/usr/keychars/qwerty.kcm \
+    vendor/htc/evitareul/proprietary/lib/libdiag.so:/system/lib/libdiag.so \
+    vendor/htc/evitareul/proprietary/lib/libdsi_netctrl.so:/system/lib/libdsi_netctrl.so \
+    vendor/htc/evitareul/proprietary/lib/libdsutils.so:/system/lib/libdsutils.so \
+    vendor/htc/evitareul/proprietary/lib/libidl.so:/system/lib/libidl.so \
+    vendor/htc/evitareul/proprietary/lib/libnetmgr.so:/system/lib/libnetmgr.so \
+    vendor/htc/evitareul/proprietary/lib/libqcci_legacy.so:/system/lib/libqcci_legacy.so \
+    vendor/htc/evitareul/proprietary/lib/libqdi.so:/system/lib/libqdi.so \
+    vendor/htc/evitareul/proprietary/lib/libqdp.so:/system/lib/libqdp.so \
+    vendor/htc/evitareul/proprietary/lib/libqmi.so:/system/lib/libqmi.so \
+    vendor/htc/evitareul/proprietary/lib/libqmi_cci.so:/system/lib/libqmi_cci.so \
+    vendor/htc/evitareul/proprietary/lib/libqmi_client_qmux.so:/system/lib/libqmi_client_cci.so \
+    vendor/htc/evitareul/proprietary/lib/libqmi_common_so.so:/system/lib/libqmi_common_so.so \
+    vendor/htc/evitareul/proprietary/lib/libqmi_csi.so:/system/lib/libqmi_csi.so \
+    vendor/htc/evitareul/proprietary/lib/libqmi_csvt_srvc.so:/system/lib/libqmi_csvt_srvc.so \
+    vendor/htc/evitareul/proprietary/lib/libqmi_encdec.so:/system/lib/libqmi_encdec.so \
+    vendor/htc/evitareul/proprietary/lib/libqmiservices.so:/system/lib/libqmiservices.so \
     vendor/htc/evitareul/proprietary/etc/firmware/bcm4330.hcd:system/etc/firmware/bcm4330.hcd \
     vendor/htc/evitareul/proprietary/etc/firmware/BCM4334B0_002.001.013.0488.0607.hcd:system/etc/firmware/bcm4334.hcd \
     vendor/htc/evitareul/proprietary/etc/firmware/fw_bcm4334.bin:system/etc/firmware/fw_bcm4334.bin \
