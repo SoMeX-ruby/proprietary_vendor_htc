@@ -27,7 +27,9 @@ PRODUCT_COPY_FILES += \
 	vendor/htc/leo/proprietary/AudioBTID.csv:system/etc/AudioBTID.csv \
 	vendor/htc/leo/proprietary/default.acdb:system/etc/firmware/default.acdb \
 	vendor/htc/leo/proprietary/libhtc_acoustic.so:system/lib/libhtc_acoustic.so \
-	vendor/htc/leo/proprietary/libhtc_ril.so:system/lib/libhtc_ril.so 
+	vendor/htc/leo/proprietary/libhtc_ril.so:system/lib/libhtc_ril.so \
+	vendor/htc/leo/proprietary/fw_bcm4329.bin:system/vendor/firmware/fw_bcm4329.bin \
+	vendor/htc/leo/proprietary/fw_bcm4329_apsta.bin:system/vendor/firmware/fw_bcm4329_apsta.bin \
 
 # Camera
 PRODUCT_COPY_FILES += \
