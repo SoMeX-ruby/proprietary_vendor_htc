@@ -25,19 +25,10 @@ PRODUCT_COPY_FILES += \
   vendor/htc/leo/proprietary/etc/AdieHWCodecSetting.csv:system/etc/AdieHWCodecSetting.csv \
   vendor/htc/leo/proprietary/etc/firmware/bcm4329.hcd:system/etc/firmware/bcm4329.hcd \
   vendor/htc/leo/proprietary/etc/firmware/default.acdb:system/etc/firmware/default.acdb \
-  vendor/htc/leo/proprietary/etc/firmware/yamato_pfp.fw:system/etc/firmware/yamato_pfp.fw \
-  vendor/htc/leo/proprietary/etc/firmware/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw \
-  vendor/htc/leo/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
-  vendor/htc/leo/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
-  vendor/htc/leo/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
-  vendor/htc/leo/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
-  vendor/htc/leo/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
   vendor/htc/leo/proprietary/lib/libcamera.so:system/lib/libcamera.so \
   vendor/htc/leo/proprietary/lib/libgps.so:system/lib/libgps.so \
-  vendor/htc/leo/proprietary/lib/libgsl.so:system/lib/libgsl.so \
   vendor/htc/leo/proprietary/lib/libhtc_acoustic.so:system/lib/libhtc_acoustic.so \
   vendor/htc/leo/proprietary/lib/libhtc_ril.so:system/lib/libhtc_ril.so \
   vendor/htc/leo/proprietary/lib/libhtc_ril_wrapper.so:system/lib/libhtc_ril_wrapper.so \
   vendor/htc/leo/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
-  vendor/htc/leo/proprietary/lib/librpc.so:system/lib/librpc.so \
-  vendor/htc/leo/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so
+  vendor/htc/leo/proprietary/lib/librpc.so:system/lib/librpc.so
