@@ -16,7 +16,7 @@
 
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES += \
-    vendor/htc/leo/proprietary/libcamera.so:obj/lib/libcamera.so
+    vendor/htc/leo/proprietary/lib/libcamera.so:obj/lib/libcamera.so
 
 PRODUCT_COPY_FILES += \
   vendor/htc/leo/proprietary/bin/akmd:system/bin/akmd \
