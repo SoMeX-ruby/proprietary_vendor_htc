@@ -21,7 +21,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
   vendor/htc/leo/proprietary/bin/akmd:system/bin/akmd \
   vendor/htc/leo/proprietary/bin/parse_radio_log:system/bin/parse_radio_log \
-  vendor/htc/leo/proprietary/bin/rild:system/bin/rild \
   vendor/htc/leo/proprietary/etc/AudioBTID.csv:system/etc/AudioBTID.csv \
   vendor/htc/leo/proprietary/etc/AdieHWCodecSetting.csv:system/etc/AdieHWCodecSetting.csv \
   vendor/htc/leo/proprietary/etc/firmware/bcm4329.hcd:system/etc/firmware/bcm4329.hcd \
@@ -33,7 +32,6 @@ PRODUCT_COPY_FILES += \
   vendor/htc/leo/proprietary/lib/libhtc_ril_wrapper.so:system/lib/libhtc_ril_wrapper.so \
   vendor/htc/leo/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
   vendor/htc/leo/proprietary/lib/librpc.so:system/lib/librpc.so \
-  vendor/htc/leo/proprietary/lib/libril.so:system/lib/libril.so \
   vendor/htc/leo/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
   vendor/htc/leo/proprietary/vendor/firmware/fw_bcm4329.bin:system/vendor/firmware/fw_bcm4329.bin \
   vendor/htc/leo/proprietary/vendor/firmware/fw_bcm4329_apsta.bin:system/vendor/firmware/fw_bcm4329_apsta.bin \
