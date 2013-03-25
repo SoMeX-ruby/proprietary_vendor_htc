@@ -30,6 +30,7 @@ PRODUCT_COPY_FILES += \
   vendor/htc/leo/proprietary/lib/libhtc_acoustic.so:system/lib/libhtc_acoustic.so \
   vendor/htc/leo/proprietary/lib/libhtc_ril.so:system/lib/libhtc_ril.so \
   vendor/htc/leo/proprietary/lib/libhtc_ril_wrapper.so:system/lib/libhtc_ril_wrapper.so \
+  vendor/htc/leo/proprietary/lib/libril.so:system/lib/lib_ril.so \
   vendor/htc/leo/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
   vendor/htc/leo/proprietary/lib/librpc.so:system/lib/librpc.so \
   vendor/htc/leo/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
