@@ -28,6 +28,7 @@ PRODUCT_COPY_FILES += \
   vendor/htc/leo/proprietary/lib/libcamera.so:system/lib/libcamera.so \
   vendor/htc/leo/proprietary/lib/libgps.so:system/lib/libgps.so \
   vendor/htc/leo/proprietary/lib/libhtc_acoustic.so:system/lib/libhtc_acoustic.so \
+  vendor/htc/leo/proprietary/lib/libril.so:system/lib/libril.so \
   vendor/htc/leo/proprietary/lib/libhtc_ril.so:system/lib/libhtc_ril.so \
   vendor/htc/leo/proprietary/lib/libhtc_ril_wrapper.so:system/lib/libhtc_ril_wrapper.so \
   vendor/htc/leo/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
