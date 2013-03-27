@@ -35,5 +35,5 @@ PRODUCT_COPY_FILES += \
   vendor/htc/leo/proprietary/lib/librpc.so:system/lib/librpc.so \
   vendor/htc/leo/proprietary/vendor/firmware/fw_bcm4329.bin:system/vendor/firmware/fw_bcm4329.bin \
   vendor/htc/leo/proprietary/vendor/firmware/fw_bcm4329_apsta.bin:system/vendor/firmware/fw_bcm4329_apsta.bin \
-  vendor/htc/leo/proprietary/bin/wpa_supplicant:system/bin/wpa_supplicant \$
+  vendor/htc/leo/proprietary/bin/wpa_supplicant:system/bin/wpa_supplicant \
   vendor/htc/leo/proprietary/bin/wpa_cli:system/bin/wpa_cli
