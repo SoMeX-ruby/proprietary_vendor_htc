@@ -18,8 +18,7 @@
 PRODUCT_COPY_FILES += \
     vendor/htc/ruby/proprietary/lib/libacdbloader.so:obj/lib/libacdbloader.so \
     vendor/htc/ruby/proprietary/lib/libacdbmapper.so:obj/lib/libacdbmapper.so \
-    vendor/htc/ruby/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so \
-    vendor/htc/ruby/proprietary/lib/libv8.so:obj/lib/libv8.so
+    vendor/htc/ruby/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so
 
 PRODUCT_COPY_FILES += \
   vendor/htc/ruby/proprietary/etc/agps_rm:system/etc/agps_rm \
@@ -41,7 +40,6 @@ PRODUCT_COPY_FILES += \
   vendor/htc/ruby/proprietary/bin/qmuxd:system/bin/qmuxd \
   vendor/htc/ruby/proprietary/bin/rmt_storage:system/bin/rmt_storage \
   vendor/htc/ruby/proprietary/bin/thermald:system/bin/thermald \
-  vendor/htc/ruby/proprietary/bin/uimqc:system/bin/uimqc \
   vendor/htc/ruby/proprietary/bin/zchgd:system/bin/zchgd \
   vendor/htc/ruby/proprietary/xbin/wireless_modem:system/xbin/wireless_modem \
   vendor/htc/ruby/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
@@ -66,6 +64,11 @@ PRODUCT_COPY_FILES += \
   vendor/htc/ruby/proprietary/lib/libchromatix_s5k3h2yx_hfr.so:system/lib/libchromatix_s5k3h2yx_hfr.so \
   vendor/htc/ruby/proprietary/lib/libchromatix_s5k3h2yx_preview.so:system/lib/libchromatix_s5k3h2yx_preview.so \
   vendor/htc/ruby/proprietary/lib/libchromatix_s5k3h2yx_zsl.so:system/lib/libchromatix_s5k3h2yx_zsl.so \
+  vendor/htc/ruby/proprietary/etc/firmware/TIInit_7.6.15.bts:system/etc/firmware/TIInit_7.6.15.bts \
+  vendor/htc/ruby/proprietary/etc/firmware/ti-connectivity/wl127x-fw-4-mr.bin:system/etc/firmware/ti-connectivity/wl127x-fw-4-mr.bin \
+  vendor/htc/ruby/proprietary/etc/firmware/ti-connectivity/wl127x-fw-4-plt.bin:system/etc/firmware/ti-connectivity/wl127x-fw-4-plt.bin \
+  vendor/htc/ruby/proprietary/etc/firmware/ti-connectivity/wl127x-fw-4-sr.bin:system/etc/firmware/ti-connectivity/wl127x-fw-4-sr.bin \
+  vendor/htc/ruby/proprietary/etc/firmware/ti-connectivity/wl1271-nvs.bin:system/etc/firmware/ti-connectivity/wl1271-nvs.bin \
   vendor/htc/ruby/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
   vendor/htc/ruby/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
   vendor/htc/ruby/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
@@ -80,20 +83,6 @@ PRODUCT_COPY_FILES += \
   vendor/htc/ruby/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
   vendor/htc/ruby/proprietary/lib/liboncrpc.so:system/lib/liboncrpc.so \
   vendor/htc/ruby/proprietary/lib/libpbmlib.so:system/lib/libpbmlib.so \
-  vendor/htc/ruby/proprietary/lib/libcneapiclient.so:system/lib/libcneapiclient.so \
-  vendor/htc/ruby/proprietary/lib/libcneqmiutils.so:system/lib/libcneqmiutils.so \
-  vendor/htc/ruby/proprietary/lib/libdnshostprio.so:system/lib/libdnshostprio.so \
-  vendor/htc/ruby/proprietary/lib/libDivxDrm.so:system/lib/libDivxDrm.so \
-  vendor/htc/ruby/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
-  vendor/htc/ruby/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
-  vendor/htc/ruby/proprietary/lib/libmmparser.so:system/lib/libmmparser.so \
-  vendor/htc/ruby/proprietary/lib/libmmparser_divxdrmlib.so:system/lib/libmmparser_divxdrmlib.so \
-  vendor/htc/ruby/proprietary/lib/libwvdrm_L3.so:system/lib/libwvdrm_L3.so \
-  vendor/htc/ruby/proprietary/lib/libwvm.so:system/lib/libwvm.so \
-  vendor/htc/ruby/proprietary/lib/libWVphoneAPI.so:system/lib/libWVphoneAPI.so \
-  vendor/htc/ruby/proprietary/lib/libWVStreamControlAPI_L3.so:system/lib/libWVStreamControlAPI_L3.so \
-  vendor/htc/ruby/proprietary/lib/drm/libdrmwvmplugin.so:system/lib/drm/libdrmwvmplugin.so \
-  vendor/htc/ruby/proprietary/lib/drm/libhtcomaplugin.so:system/lib/drm/libhtcomaplugin.so \
   vendor/htc/ruby/proprietary/lib/hw/nfc.ruby.so:system/lib/hw/nfc.ruby.so \
   vendor/htc/ruby/proprietary/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so \
   vendor/htc/ruby/proprietary/lib/libdiag.so:system/lib/libdiag.so \
@@ -112,5 +101,4 @@ PRODUCT_COPY_FILES += \
   vendor/htc/ruby/proprietary/lib/libmllite.so:system/lib/libmllite.so \
   vendor/htc/ruby/proprietary/lib/libmlplatform.so:system/lib/libmlplatform.so \
   vendor/htc/ruby/proprietary/lib/libmpl_jni.so:system/lib/libmpl_jni.so \
-  vendor/htc/ruby/proprietary/lib/libmpl.so:system/lib/libmpl.so \
-  vendor/htc/ruby/proprietary/lib/libv8.so:system/lib/libv8.so
+  vendor/htc/ruby/proprietary/lib/libmpl.so:system/lib/libmpl.so
