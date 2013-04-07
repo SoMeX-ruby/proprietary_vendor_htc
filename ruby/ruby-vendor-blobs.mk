@@ -40,6 +40,7 @@ PRODUCT_COPY_FILES += \
   vendor/htc/ruby/proprietary/bin/qmuxd:system/bin/qmuxd \
   vendor/htc/ruby/proprietary/bin/rmt_storage:system/bin/rmt_storage \
   vendor/htc/ruby/proprietary/bin/thermald:system/bin/thermald \
+  vendor/htc/ruby/proprietary/bin/uimqc:system/bin/uimqc \
   vendor/htc/ruby/proprietary/bin/zchgd:system/bin/zchgd \
   vendor/htc/ruby/proprietary/xbin/wireless_modem:system/xbin/wireless_modem \
   vendor/htc/ruby/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
