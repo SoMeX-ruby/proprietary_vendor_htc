@@ -18,7 +18,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/qsd8k-common/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
     vendor/htc/qsd8k-common/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
     vendor/htc/qsd8k-common/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
-    vendor/htc/qsd8k-common/proprietary/lib/egl/libGLESv2S3D_adreno200.so:system/lib/egl/libGLESv2S3D_adreno200.so \
     vendor/htc/qsd8k-common/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
     vendor/htc/qsd8k-common/proprietary/lib/libc2d2_z180.so:system/lib/libc2d2_z180.so \
     vendor/htc/qsd8k-common/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
