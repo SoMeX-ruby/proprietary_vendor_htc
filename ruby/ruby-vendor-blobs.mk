@@ -28,6 +28,7 @@ PRODUCT_COPY_FILES += \
   vendor/htc/ruby/proprietary/bin/calibrator:system/bin/calibrator \
   vendor/htc/ruby/proprietary/bin/charging:system/bin/charging \
   vendor/htc/ruby/proprietary/bin/ewtzmud:system/bin/ewtzmud \
+  vendor/htc/ruby/proprietary/bin/gpu_dcvsd:system/bin/gpu_dcvsd \
   vendor/htc/ruby/proprietary/bin/htcbatt:system/bin/htcbatt \
   vendor/htc/ruby/proprietary/bin/ipd:system/bin/ipd \
   vendor/htc/ruby/proprietary/bin/ks:system/bin/ks \
@@ -70,12 +71,18 @@ PRODUCT_COPY_FILES += \
   vendor/htc/ruby/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
   vendor/htc/ruby/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
   vendor/htc/ruby/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
+  vendor/htc/ruby/proprietary/lib/egl/libplayback_adreno200.so:system/lib/egl/libplayback_adreno200.so \
   vendor/htc/ruby/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
   vendor/htc/ruby/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
   vendor/htc/ruby/proprietary/lib/libc2d2_z180.so:system/lib/libc2d2_z180.so \
+  vendor/htc/ruby/proprietary/lib/libc2d2_a3xx.so:system/lib/libc2d2_a3xx.so \
+  vendor/htc/ruby/proprietary/lib/libllvm-a3xx.so:system/lib/libllvm-a3xx.so \
+  vendor/htc/ruby/proprietary/lib/libllvm-arm.so:system/lib/libllvm-arm.so \
+  vendor/htc/ruby/proprietary/lib/libOpenCL.so:system/lib/libOpenCL.so \
   vendor/htc/ruby/proprietary/lib/libgsl.so:system/lib/libgsl.so \
   vendor/htc/ruby/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
   vendor/htc/ruby/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
+  vendor/htc/ruby/proprietary/lib/libsc-a3xx.so:system/lib/libsc-a3xx.so \
   vendor/htc/ruby/proprietary/lib/libdsm.so:system/lib/libdsm.so \
   vendor/htc/ruby/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
   vendor/htc/ruby/proprietary/lib/liboncrpc.so:system/lib/liboncrpc.so \
@@ -98,4 +105,27 @@ PRODUCT_COPY_FILES += \
   vendor/htc/ruby/proprietary/lib/libmllite.so:system/lib/libmllite.so \
   vendor/htc/ruby/proprietary/lib/libmlplatform.so:system/lib/libmlplatform.so \
   vendor/htc/ruby/proprietary/lib/libmpl_jni.so:system/lib/libmpl_jni.so \
-  vendor/htc/ruby/proprietary/lib/libmpl.so:system/lib/libmpl.so
+  vendor/htc/ruby/proprietary/lib/libmpl.so:system/lib/libmpl.so \
+  vendor/htc/ruby/firmware/ti-connectivity/wl127x-fw-4-mr.bin:system/etc/firmware/ti-connectivity/wl127x-fw-4-mr.bin \
+    vendor/htc/ruby/firmware/ti-connectivity/wl127x-fw-4-plt.bin:system/etc/firmware/ti-connectivity/wl127x-fw-4-plt.bin \
+    vendor/htc/ruby/firmware/ti-connectivity/wl127x-fw-4-sr.bin:system/etc/firmware/ti-connectivity/wl127x-fw-4-sr.bin \
+    vendor/htc/ruby/firmware/ti-connectivity/wl1271-nvs.bin:system/etc/firmware/ti-connectivity/wl1271-nvs.bin \
+    vendor/htc/ruby/firmware/firmware.bin:system/etc/wifi/firmware.bin \
+    vendor/htc/ruby/firmware/firmware_ap.bin:system/etc/wifi/firmware_ap.bin \
+    vendor/htc/ruby/firmware/fmc_init_1273.2.bts:system/etc/firmware/fmc_init_1273.2.bts \
+    vendor/htc/ruby/firmware/fm_rx_init_1273.2.bts:system/etc/firmware/fm_rx_init_1273.2.bts \
+    vendor/htc/ruby/firmware/htc_1271fw.bin:system/etc/firmware/htc_1271fw.bin \
+    vendor/htc/ruby/firmware/htc_1271fw_196_header.bin:system/etc/firmware/htc_1271fw_196_header.bin \
+    vendor/htc/ruby/firmware/TIInit_7.6.15.bts:system/etc/firmware/TIInit_7.6.15.bts \
+    vendor/htc/ruby/firmware/vac_config.ini:system/etc/firmware/vac_config.ini \
+    vendor/htc/ruby/firmware/version:system/etc/firmware/version \
+    vendor/htc/ruby/firmware/WL127x_2.0_2.25.bts:system/etc/firmware/WL127x_2.0_2.25.bts \
+    vendor/htc/ruby/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
+    vendor/htc/ruby/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
+    vendor/htc/ruby/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
+    vendor/htc/ruby/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
+    vendor/htc/ruby/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw \
+    vendor/htc/ruby/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
+    vendor/htc/ruby/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
+    vendor/htc/ruby/firmware/yamato_pfp.fw:system/etc/firmware/yamato_pfp.fw \
+    vendor/htc/ruby/firmware/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw 
