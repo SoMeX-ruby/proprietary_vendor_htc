@@ -106,26 +106,26 @@ PRODUCT_COPY_FILES += \
   vendor/htc/ruby/proprietary/lib/libmlplatform.so:system/lib/libmlplatform.so \
   vendor/htc/ruby/proprietary/lib/libmpl_jni.so:system/lib/libmpl_jni.so \
   vendor/htc/ruby/proprietary/lib/libmpl.so:system/lib/libmpl.so \
-  vendor/htc/ruby/proprietary/firmware/ti-connectivity/wl127x-fw-4-mr.bin:system/etc/firmware/ti-connectivity/wl127x-fw-4-mr.bin \
-  vendor/htc/ruby/proprietary/firmware/ti-connectivity/wl127x-fw-4-plt.bin:system/etc/firmware/ti-connectivity/wl127x-fw-4-plt.bin \
-  vendor/htc/ruby/proprietary/firmware/ti-connectivity/wl127x-fw-4-sr.bin:system/etc/firmware/ti-connectivity/wl127x-fw-4-sr.bin \
-  vendor/htc/ruby/proprietary/firmware/ti-connectivity/wl1271-nvs.bin:system/etc/firmware/ti-connectivity/wl1271-nvs.bin \
-  vendor/htc/ruby/proprietary/firmware/firmware.bin:system/etc/wifi/firmware.bin \
-  vendor/htc/ruby/proprietary/firmware/firmware_ap.bin:system/etc/wifi/firmware_ap.bin \
-  vendor/htc/ruby/proprietary/firmware/fmc_init_1273.2.bts:system/etc/firmware/fmc_init_1273.2.bts \
-  vendor/htc/ruby/proprietary/firmware/fm_rx_init_1273.2.bts:system/etc/firmware/fm_rx_init_1273.2.bts \
-  vendor/htc/ruby/proprietary/firmware/htc_1271fw.bin:system/etc/firmware/htc_1271fw.bin \
-  vendor/htc/ruby/proprietary/firmware/htc_1271fw_196_header.bin:system/etc/firmware/htc_1271fw_196_header.bin \
-  vendor/htc/ruby/proprietary/firmware/TIInit_7.6.15.bts:system/etc/firmware/TIInit_7.6.15.bts \
-  vendor/htc/ruby/proprietary/firmware/vac_config.ini:system/etc/firmware/vac_config.ini \
-  vendor/htc/ruby/proprietary/firmware/version:system/etc/firmware/version \
-  vendor/htc/ruby/proprietary/firmware/WL127x_2.0_2.25.bts:system/etc/firmware/WL127x_2.0_2.25.bts \
-  vendor/htc/ruby/proprietary/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
-  vendor/htc/ruby/proprietary/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
-  vendor/htc/ruby/proprietary/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
-  vendor/htc/ruby/proprietary/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
-  vendor/htc/ruby/proprietary/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw \
-  vendor/htc/ruby/proprietary/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
-  vendor/htc/ruby/proprietary/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
-  vendor/htc/ruby/proprietary/firmware/yamato_pfp.fw:system/etc/firmware/yamato_pfp.fw \
-  vendor/htc/ruby/proprietary/firmware/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw 
+  vendor/htc/ruby/firmware/ti-connectivity/wl127x-fw-4-mr.bin:system/etc/firmware/ti-connectivity/wl127x-fw-4-mr.bin \
+    vendor/htc/ruby/firmware/ti-connectivity/wl127x-fw-4-plt.bin:system/etc/firmware/ti-connectivity/wl127x-fw-4-plt.bin \
+    vendor/htc/ruby/firmware/ti-connectivity/wl127x-fw-4-sr.bin:system/etc/firmware/ti-connectivity/wl127x-fw-4-sr.bin \
+    vendor/htc/ruby/firmware/ti-connectivity/wl1271-nvs.bin:system/etc/firmware/ti-connectivity/wl1271-nvs.bin \
+    vendor/htc/ruby/firmware/firmware.bin:system/etc/wifi/firmware.bin \
+    vendor/htc/ruby/firmware/firmware_ap.bin:system/etc/wifi/firmware_ap.bin \
+    vendor/htc/ruby/firmware/fmc_init_1273.2.bts:system/etc/firmware/fmc_init_1273.2.bts \
+    vendor/htc/ruby/firmware/fm_rx_init_1273.2.bts:system/etc/firmware/fm_rx_init_1273.2.bts \
+    vendor/htc/ruby/firmware/htc_1271fw.bin:system/etc/firmware/htc_1271fw.bin \
+    vendor/htc/ruby/firmware/htc_1271fw_196_header.bin:system/etc/firmware/htc_1271fw_196_header.bin \
+    vendor/htc/ruby/firmware/TIInit_7.6.15.bts:system/etc/firmware/TIInit_7.6.15.bts \
+    vendor/htc/ruby/firmware/vac_config.ini:system/etc/firmware/vac_config.ini \
+    vendor/htc/ruby/firmware/version:system/etc/firmware/version \
+    vendor/htc/ruby/firmware/WL127x_2.0_2.25.bts:system/etc/firmware/WL127x_2.0_2.25.bts \
+    vendor/htc/ruby/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
+    vendor/htc/ruby/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
+    vendor/htc/ruby/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
+    vendor/htc/ruby/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
+    vendor/htc/ruby/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw \
+    vendor/htc/ruby/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
+    vendor/htc/ruby/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
+    vendor/htc/ruby/firmware/yamato_pfp.fw:system/etc/firmware/yamato_pfp.fw \
+    vendor/htc/ruby/firmware/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw 
